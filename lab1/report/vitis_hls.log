@@ -1,0 +1,19 @@
+NOTE: Using modified tcl85t.dll from https://gitenterprise.xilinx.com/ACT/vitis_hls_tcl
+INFO: [HLS 200-10] Running 'D:/fpga/Vitis_HLS/2023.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user '86158' on host '台式机' (Windows NT_amd64 version 6.2) on Sun Jul 16 18:09:27 +0800 2023
+INFO: [HLS 200-10] In directory 'C:/Users/86158/Desktop/塞林斯'
+Sourcing Tcl script 'C:/Users/86158/Desktop/塞林斯/fir_hls_prj1/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/86158/Desktop/濉炴灄鏂¯/fir_hls_prj1/solution1/csynth.tcl
+C:/Users/86158/Desktop/濉炴灄鏂¯/fir_hls_prj1/solution1/csynth.tcl can't be opened.
+couldn't read file "C:/Users/86158/Desktop/濉炴灄鏂¯/fir_hls_prj1/solution1/csynth.tcl": no such file or directory
+    while executing
+"source C:/Users/86158/Desktop/濉炴灄鏂¯/fir_hls_prj1/solution1/csynth.tcl"
+    invoked from within
+"hls::main C:/Users/86158/Desktop/塞林斯/fir_hls_prj1/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 0.499 seconds; peak allocated memory: 7.090 MB.
